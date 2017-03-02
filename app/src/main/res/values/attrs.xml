@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradientSpinningRoundView">
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="circleStartColor" format="color" />
+        <attr name="circleEndColor" format="color" />
+    </declare-styleable>
+</resources>

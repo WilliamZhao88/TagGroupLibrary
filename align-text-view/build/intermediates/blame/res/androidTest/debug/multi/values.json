@@ -1,0 +1,54 @@
+[
+    {
+        "outputFile": "/Users/zhaoweiliang/AndroidStudioProjects/CustomUI/align-text-view/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 367,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 653
+                },
+                "from": {
+                    "file": "/Users/zhaoweiliang/AndroidStudioProjects/CustomUI/align-text-view/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 367,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 653
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/zhaoweiliang/AndroidStudioProjects/CustomUI/align-text-view/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 415,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 701
+                },
+                "from": {
+                    "file": "/Users/zhaoweiliang/AndroidStudioProjects/CustomUI/align-text-view/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 415,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 701
+                    }
+                }
+            }
+        ]
+    }
+]

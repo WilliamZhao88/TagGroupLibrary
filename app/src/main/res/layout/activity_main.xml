@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="egoo.customui.MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.zwl.taggroup.TagGroup
+                android:id="@+id/tag_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                app:borderStrokeWidth="1dp"
+                app:textSize="12dp"
+                app:horizontalSpacing="16dp"
+                app:verticalSpacing="4dp"
+                app:tagCornerRadius="10dp"
+                app:tagDefaultColor="#727272"
+                app:tagSelectedColor="#232935"
+                app:tagTextPadding="5dp"/>
+
+            <egoo.customui.GradientSpinningRoundView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:strokeWidth="2dp"
+                app:circleStartColor="@android:color/holo_green_light"
+                app:circleEndColor="@android:color/white"/>
+
+            <!--<LinearLayout-->
+                <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+                <!--<me.codeboy.android.aligntextview.AlignTextView-->
+                    <!--android:id="@+id/align_text_view"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:ellipsize="marquee"-->
+                    <!--android:lineSpacingExtra="1dp"-->
+                    <!--android:lineSpacingMultiplier="2"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:textIsSelectable="true"-->
+                    <!--android:textSize="14dp"-->
+                    <!--android:background="@android:color/holo_red_dark"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/text_view"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:ellipsize="marquee"-->
+                    <!--android:lineSpacingExtra="1dp"-->
+                    <!--android:lineSpacingMultiplier="2"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:textIsSelectable="true"-->
+                    <!--android:textSize="14dp"-->
+                    <!--android:background="@android:color/holo_green_dark"/>-->
+            <!--</LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/text_view_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/bg_white"
+                        android:padding="@dimen/view_padding"
+                        android:text="@string/text_view"
+                        android:textSize="@dimen/big_font"
+                        android:textStyle="bold">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@id/text_view_title"
+                        android:padding="@dimen/view_padding"
+                        android:textColorHighlight="@android:color/holo_blue_dark"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/small_font"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/justify_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blue"
+                        android:padding="@dimen/view_padding"
+                        android:text="@string/justify_text_view"
+                        android:textSize="@dimen/big_font"
+                        android:textStyle="bold">
+                    </TextView>
+
+                    <egoo.customui.JustifyTextView
+                        android:id="@+id/justify_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/justify_title"
+                        android:background="@drawable/blue_select"
+                        android:padding="@dimen/view_padding"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/small_font"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/align_text_view_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/red"
+                        android:padding="@dimen/view_padding"
+                        android:text="@string/align_text_view"
+                        android:textSize="@dimen/big_font"
+                        android:textStyle="bold">
+                    </TextView>
+
+                    <me.codeboy.android.aligntextview.AlignTextView
+                        android:id="@+id/align_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/align_text_view_title"
+                        android:background="@color/red2"
+                        android:padding="@dimen/view_padding"
+                        android:ellipsize="marquee"
+                        cb:align="left"
+                        android:textSize="@dimen/small_font"
+                        android:textIsSelectable="true"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/cb_align_text_view_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/green"
+                        android:padding="@dimen/view_padding"
+                        android:text="@string/cb_align_text_view"
+                        android:textSize="@dimen/big_font"
+                        android:textStyle="bold">
+                    </TextView>
+
+                    <me.codeboy.android.aligntextview.CBAlignTextView
+                        android:id="@+id/cb_align_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@id/cb_align_text_view_title"
+                        android:background="@drawable/green_select"
+                        android:paddingTop="@dimen/view_padding"
+                        cb:punctuationConvert="true"
+                        android:textColorHighlight="@android:color/holo_blue_dark"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/small_font"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

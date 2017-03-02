@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradientSpinningRoundView">
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="circleStartColor" format="color" />
+        <attr name="circleEndColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TagGroupViviSDK">
+        <attr name="borderStrokeWidth" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="verticalSpacing" format="dimension"/>
+        <attr name="horizontalSpacing" format="dimension"/>
+        <attr name="tagDefaultColor" format="color"/>
+        <attr name="tagSelectedColor" format="color"/>
+        <attr name="tagCornerRadius" format="dimension"/>
+        <attr name="tagTextPadding" format="dimension"/>
+    </declare-styleable>
+</resources>
